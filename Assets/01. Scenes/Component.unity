@@ -284,7 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9341ba16f7ead6e488191eaa30b499d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
+  obj: {fileID: 1540468426}
   changeName: "\uBA54\uC778 \uCE74\uBA54\uB77C"
 --- !u!1 &1303215104
 GameObject:
