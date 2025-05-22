@@ -9,12 +9,15 @@ public class StudyComponent : MonoBehaviour
     
     void Start()
     {
+        obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        
         CreateCube();
+        CreateCube("Hello World");
     }
 
-    public void CreateCube()
+    public void CreateCube(string name = "Cube")
     {
-        obj = new GameObject("Cube");
+        obj = new GameObject(name);
         
         obj.AddComponent<MeshFilter>();
         obj.GetComponent<MeshFilter>().mesh = msh;
