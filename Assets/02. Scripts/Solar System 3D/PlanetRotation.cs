@@ -13,7 +13,7 @@ public class PlanetRotation : MonoBehaviour
     void Update()
     {
         //  자전하는 회전하는 기능
-        transform.Rotate(Vector3.up * rotSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.up * rotSpeed * Time.deltaTime, Space.Self);
 
         if (isRevolution == true) // 조건문 -> 만약 공전을 한다면,
         {

@@ -6,6 +6,6 @@ public class Bullet : MonoBehaviour
     
     void Update()
     {
-        transform.position += transform.forward * bulletSpeed * Time.deltaTime;
+        transform.position += transform.right * bulletSpeed * Time.deltaTime;
     }
 }

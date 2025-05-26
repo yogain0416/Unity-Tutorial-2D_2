@@ -25,7 +25,7 @@ public class StudyLookAt : MonoBehaviour
         if (timer >= cooldownTime)
         {
             timer = 0f;
-            Instantiate(bulletPrefab, firePos.position, Quaternion.identity); // 총알 생성
+            Instantiate(bulletPrefab, firePos.position, firePos.rotation); // 총알 생성
         }
         
     }
